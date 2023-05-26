@@ -3,11 +3,12 @@ package handlers
 import (
 	"github.com/gin-gonic/gin"
 
-	"github.com/ahsmha/vod/internal/auth"
-	"github.com/ahsmha/vod/internal/database"
-	"github.com/ahsmha/vod/internal/encoding"
-	"github.com/ahsmha/vod/internal/search"
-	"github.com/ahsmha/vod/internal/storage"
+	"vod/internal/encoding"
+	"vod/internal/search"
+	"vod/internal/storage"
+	"vod/pkg/database"
+
+	"vod/internal/auth"
 )
 
 // VideoHandler represents the video-related HTTP request handlers.

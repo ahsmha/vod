@@ -3,7 +3,7 @@ package routes
 import (
 	"github.com/gin-gonic/gin"
 
-	"github.com/ahsmha/vod/internal/api/handlers"
+	"vod/internal/api/handlers"
 )
 
 // VideoRoutes represents the video-related routes and handlers.
